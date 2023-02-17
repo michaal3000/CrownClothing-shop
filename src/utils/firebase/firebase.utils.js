@@ -10,13 +10,14 @@ import {
 } from "firebase/auth";
 import { getFirestore, doc, getDoc, setDoc } from "firebase/firestore";
 
+// Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDDU4V-_QV3M8GyhC9SVieRTDM4dbiT0Yk",
-  authDomain: "crwn-clothing-db-98d4d.firebaseapp.com",
-  projectId: "crwn-clothing-db-98d4d",
-  storageBucket: "crwn-clothing-db-98d4d.appspot.com",
-  messagingSenderId: "626766232035",
-  appId: "1:626766232035:web:506621582dab103a4d08d6",
+  apiKey: "AIzaSyAiUbOeTh2eqk6mOMjCrWY05jyPkNBenf4",
+  authDomain: "crwn-db-355e5.firebaseapp.com",
+  projectId: "crwn-db-355e5",
+  storageBucket: "crwn-db-355e5.appspot.com",
+  messagingSenderId: "231222458204",
+  appId: "1:231222458204:web:797fb1c375cde254fdb399",
 };
 
 const firebaseApp = initializeApp(firebaseConfig);
